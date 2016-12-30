@@ -10,11 +10,3 @@ use Mix.Config
 # or recreate for your teammates (or you later on).
 config :phoenix_json_api_example, PhoenixJsonApiExample.Endpoint,
   secret_key_base: System.get_env("SECRET_KEY_BASE")
-
-# Configure your database
-config :phoenix_json_api_example, PhoenixJsonApiExample.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "phoenix_json_api_example_prod",
-  pool_size: 20
