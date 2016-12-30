@@ -1,7 +1,7 @@
 # Phoenix JSON API Example
 Simple JSON API example for [json-api-normalizer](https://github.com/yury-dymov/json-api-normalizer) show case. Mentioned in [HabraHabr article](http://habr.ru ToDo)
 
-This application deployed to Heroku — https://phoenix-json-api-example.herokuapp.com/test
+This application deployed to Heroku — https://phoenix-json-api-example.herokuapp.com/api/test
 
 # Endpoints
 The only supported endpoint is `/test`, which returns the test data.
