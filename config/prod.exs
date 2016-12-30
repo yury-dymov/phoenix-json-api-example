@@ -14,8 +14,7 @@ use Mix.Config
 config :phoenix_json_api_example, PhoenixJsonApiExample.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [scheme: "https", host: "phoenix-json-api-example.herokuapp.com", port: 443],
-  force_ssl: [rewrite_on: [:x_forwarded_proto]],
-  cache_static_manifest: "priv/static/manifest.json"
+  force_ssl: [rewrite_on: [:x_forwarded_proto]]
 
 config :phoenix_json_api_example, PhoenixJsonApiExample.Repo,
   adapter: Ecto.Adapters.Postgres,
