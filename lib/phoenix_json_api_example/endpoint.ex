@@ -36,5 +36,6 @@ defmodule PhoenixJsonApiExample.Endpoint do
     key: "_phoenix_json_api_example_key",
     signing_salt: "wWs/Qr2S"
 
+  plug CORSPlug
   plug PhoenixJsonApiExample.Router
 end
